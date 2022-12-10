@@ -1,0 +1,40 @@
+@import '../../../../scss/utilities/mixin';
+@import '../../../../scss/utilities/variables';
+
+.addProductAdmin {
+  padding-top: 3rem;
+
+  &__container {
+    padding-bottom: 5rem;
+  }
+
+  &__title {
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  label {
+    vertical-align: super;
+
+    svg {
+      font-size: 0.5rem;
+      color: $light-red;
+      vertical-align: super;
+    }
+  }
+
+  .icon-back {
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+
+.admin__wrapper--button {
+  @include flex(flex-end, center, '', '', '');
+}
+
+.button-back {
+  margin-right: 12px;
+}

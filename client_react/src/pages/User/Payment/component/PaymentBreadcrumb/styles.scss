@@ -1,0 +1,22 @@
+@import '../../../../../scss/utilities/mixin';
+@import '../../../../../scss/utilities/variables';
+.payment {
+  &__breadcrumb {
+    @include flex-align-center;
+    gap: 0.7rem;
+    padding: 1rem 0 2rem;
+
+    span {
+      cursor: pointer;
+      color: $dark-gray;
+      font-weight: 300;
+    }
+    &--active {
+      color: $primary-color !important;
+      font-weight: 400;
+    }
+    @include respond-to('sm') {
+      font-size: 1.2rem;
+    }
+  }
+}

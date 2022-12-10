@@ -1,0 +1,13 @@
+client_react/.vscode
+client_react/node_modules
+client_react/build
+client_react/.DS_STORE
+
+server_node/node_modules
+server_node/.vscode
+server_node/.env
+server_node/db.json
+server_node/ThamKhaoServer
+server_node/public
+
+.DS_STORE

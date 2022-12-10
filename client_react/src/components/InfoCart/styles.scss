@@ -1,0 +1,107 @@
+@import '../../scss/utilities/mixin';
+@import '../../scss/utilities/variables';
+
+.infoCart {
+  background-color: $bgc;
+  padding: 5rem 0 5rem 5rem;
+  border-left: 1px solid $border-color;
+  min-height: 100vh;
+  @include respond-to('lg') {
+    border: none;
+    padding: 5rem 0;
+  }
+  &__cart {
+    margin-bottom: 2rem;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    &--item {
+      td {
+        vertical-align: middle;
+        &:nth-child(2) {
+          text-align: left;
+          padding-left: 3rem;
+        }
+        &:nth-child(3) {
+          text-align: right;
+        }
+      }
+    }
+    &--img {
+      position: relative;
+      padding: 0 1rem;
+      @include bgc-image(15%);
+      width: 16%;
+      border: 1px solid $border-color;
+      border-radius: 6px;
+      background-color: $white;
+
+      img {
+        @include absolute(0, '', '', 50%);
+        @include transform-translate(x, -50%);
+        width: 80%;
+        height: 100%;
+      }
+    }
+    &--amount {
+      display: block;
+      @include absolute(0, 0, '', '');
+      @include centerWidthHeight(2rem);
+      @include transform-translate(xy, 50%, -50%);
+      border-radius: 50%;
+      font-size: 1.3rem;
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+  &__discount {
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    padding: 3rem 0;
+    form {
+      @include flex;
+      gap: 1rem;
+      input {
+        flex: 1;
+        padding: 1rem;
+        border-radius: 4px;
+      }
+      button {
+        padding: 1.2rem 2rem;
+        background-color: #c8c8c8;
+        border-radius: 4px;
+        font-weight: 500;
+        @include respond-to('lg') {
+          padding: 1.2rem 3rem;
+        }
+      }
+    }
+  }
+  &__price {
+    padding: 3rem 0;
+
+    &--item {
+      @include flex;
+      padding-bottom: 1rem;
+
+      &:nth-of-type(4) {
+        padding-top: 10px;
+        border-top: 1px solid $border-color;
+      }
+
+      p {
+        font-weight: 500;
+      }
+    }
+    &--total {
+      @include flex;
+      border-top: 1px solid $border-color;
+
+      padding: 3rem 0 0 1rem;
+      span {
+        font-size: 2.6rem;
+        opacity: 0.8;
+      }
+    }
+  }
+}

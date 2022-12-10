@@ -1,0 +1,56 @@
+@import '../../../../scss/utilities/mixin';
+@import '../../../../scss/utilities/variables';
+
+.admin__listUser--modal {
+  height: 100%;
+  > button {
+    height: 100%;
+  }
+}
+.listUser__modal {
+  top: 50px;
+  .admin__listUser--modal-form {
+    .modal__create-input {
+      padding: 1rem 0;
+      @include flex('', '', '', 1rem);
+
+      label {
+        display: inline-block;
+        width: 40%;
+        span {
+          color: $red;
+        }
+      }
+      > div {
+        width: 50%;
+        p {
+          word-wrap: break-word;
+        }
+      }
+      input {
+        flex: 1;
+        border: 0.5px solid $gray;
+        &:focus {
+          border-color: #40a9ff;
+          border-right-width: 1px !important;
+          outline: 0;
+          box-shadow: 0 0 0 2px #1890ff33;
+        }
+      }
+      .error-message {
+        color: $red !important;
+      }
+    }
+
+    .modal__form-btn {
+      @include flex(flex-end, '', '', 2rem);
+    }
+
+    .modal__create-input-modify {
+      padding-bottom: 4rem;
+    }
+  }
+  .ant-modal-footer {
+    display: none !important;
+  }
+}

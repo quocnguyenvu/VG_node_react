@@ -1,0 +1,300 @@
+@import '../../../scss/utilities/mixin';
+@import '../../../scss/utilities/variables';
+
+.home {
+  &__banner {
+    padding: 7rem 0;
+    cursor: pointer;
+
+    .banner {
+      &__item {
+        position: relative;
+        padding: 8px 0;
+
+        &:hover {
+          .banner__img {
+            img {
+              transform: scale(1.1);
+            }
+            &::before,
+            &::after {
+              opacity: 1;
+              transform: scale(1);
+            }
+          }
+        }
+      }
+      &__img {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        &::before,
+        &::after {
+          content: '';
+          @include absolute(1rem, 1rem, 1rem, 1rem);
+          @include transition(all, 0.4s, ease-in);
+          z-index: 3;
+          transform-origin: center;
+          opacity: 0;
+        }
+
+        &::before {
+          border-top: 1px solid $white;
+          border-bottom: 1px solid $white;
+          transform: scale(0, 1);
+        }
+
+        &::after {
+          border-left: 1px solid $white;
+          border-right: 1px solid $white;
+          transform: scale(1, 0);
+        }
+      }
+
+      &__content {
+        @include absolute(55%, '', '', 10%);
+        z-index: 4;
+        @include transform-translate(y, '', -50%);
+      }
+
+      &__title {
+        padding-bottom: 1.5rem;
+        font-size: 2.4rem;
+        font-weight: 700;
+        &--white {
+          color: $white;
+        }
+      }
+    }
+
+    img {
+      @include transition(all, 0.3s, ease-in);
+    }
+  }
+
+  &__category {
+    padding: 10rem 0;
+    background-color: #f7f7f7;
+
+    .category {
+      &__title {
+        padding-bottom: 3rem;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+        @include respond-to('lg') {
+          font-size: 2.4rem;
+        }
+        @include respond-to('md') {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+
+  &__product {
+    .ant-tabs {
+      overflow: visible;
+    }
+
+    .ant-tabs-nav-wrap {
+      justify-content: center;
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active .button-transparent {
+      border-color: $primary-color;
+      color: $primary-color;
+    }
+
+    .ant-tabs-ink-bar {
+      background-color: $primary-color;
+    }
+  }
+  &__countdown {
+    padding: 7rem 0;
+
+    .countdown {
+      &__container {
+        position: relative;
+        @include bgc-image(38%);
+        background-attachment: fixed;
+        min-height: 27rem;
+
+        @include respond-to('xl') {
+          background-position: right;
+        }
+      }
+
+      &__content {
+        @include absolute(50%, '', '', 10%);
+        @include transform-translate(y, '', -50%);
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        text-align: center;
+        color: $white;
+        @include respond-to('md') {
+          @include absolute(50%, '', '', 50%);
+          @include transform-translate(xy, -50%);
+        }
+      }
+
+      &__title {
+        &--sub {
+          letter-spacing: 1px;
+          font-size: 1.5rem;
+        }
+
+        &--main {
+          padding: 1.5rem 0;
+          font-size: 3rem;
+          font-weight: 500;
+          color: $white;
+          @include respond-to('md') {
+            font-size: 2.8rem;
+          }
+        }
+      }
+
+      &__deal {
+        padding-bottom: 1.5rem;
+
+        &--list {
+          @include flex(center, center);
+          gap: 0.5rem;
+        }
+
+        &--item {
+          background-color: #37954f;
+          @include flex(space-between, center, column);
+          padding: 1rem;
+          @include width-height(7rem);
+          border-radius: 6px;
+
+          @include respond-to('md') {
+            @include width-height(6rem);
+            padding: 0.5rem;
+          }
+        }
+
+        &--number {
+          font-size: 2.2rem;
+          font-weight: 500;
+          @include respond-to('md') {
+            font-size: 2rem;
+          }
+        }
+
+        &--text {
+          font-size: 1.3rem;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &__shopify {
+    padding: 7rem 0;
+
+    .shopify {
+      &__wrapper {
+        position: relative;
+        @include bgc-image(25%);
+        background-position: left;
+        min-height: 25rem;
+      }
+
+      &__container {
+        position: absolute;
+        inset: 0;
+      }
+
+      &__content {
+        @include flex(center, center, column);
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: -webkit-fit-content;
+        width: fit-content;
+        height: 100%;
+        margin-left: auto;
+        color: $white;
+        @include respond-to('md') {
+          width: unset;
+        }
+      }
+
+      &__title {
+        text-align: center;
+
+        &--main {
+          font-size: 2.1rem;
+          font-weight: 600;
+          letter-spacing: 1px;
+          color: $white;
+        }
+
+        &--sub {
+          letter-spacing: 1px;
+          padding: 1.5rem 0;
+        }
+      }
+
+      &__form {
+        @include flex(center, center, column);
+        @include respond-to('md') {
+          width: 100%;
+        }
+
+        &--container {
+          background-color: $white;
+          @include flex-align-center;
+          border-radius: 2.5rem;
+          overflow: hidden;
+          width: 55rem;
+          @include respond-to('md') {
+            width: 80%;
+          }
+        }
+      }
+
+      &__input {
+        flex: 1;
+        padding: 1.4rem 2rem;
+        color: $black;
+      }
+
+      &__btn {
+        &--lg {
+          background-color: #37954f;
+          height: 100%;
+          padding: 1.5rem 3rem;
+          @include respond-to('md') {
+            display: none;
+          }
+        }
+
+        &--md {
+          margin-top: 1.5rem;
+          display: none;
+          @include respond-to('md') {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .products_home {
+    --f-columns: 4;
+    --f-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--f-gap));
+    margin-bottom: calc(-1 * var(--f-gap));
+  }
+  .products_home > .product-item {
+    margin-left: var(--f-gap);
+    margin-bottom: var(--f-gap);
+    width: calc((100% / var(--f-columns) - var(--f-gap)));
+  }
+}

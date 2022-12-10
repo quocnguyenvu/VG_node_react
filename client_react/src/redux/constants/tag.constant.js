@@ -1,0 +1,18 @@
+export const GET_TAG = 'GET_TAG';
+export const CREATE_TAG = 'CREATE_TAG';
+export const DELETE_TAG = 'DELETE_TAG';
+export const GET_TAG_SUCCESS = 'GET_TAG_SUCCESS';
+export const GET_TAG_FAIL = 'GET_TAG_FAIL';
+
+export const DELETE_TAG_FAIL = 'DELETE_TAG_FAIL';
+export const DELETE_TAG_SUCCESS = 'DELETE_TAG_SUCCESS';
+export const CREATE_TAG_FAIL = 'CREATE_TAG_FAIL';
+export const CREATE_TAG_SUCCESS = 'CREATE_TAG_SUCCESS';
+
+export const GET_TAG_DETAIL_SUCCESS = 'GET_TAG_DETAIL_SUCCESS';
+export const GET_TAG_DETAIL_FAIL = 'GET_TAG_DETAIL_FAIL';
+export const GET_TAG_DETAIL = 'GET_TAG_DETAIL';
+
+export const UPDATE_TAG = 'UPDATE_TAG';
+export const UPDATE_TAG_FAIL = 'UPDATE_TAG_FAIL';
+export const UPDATE_TAG_SUCCESS = 'UPDATE_TAG_SUCCESS';

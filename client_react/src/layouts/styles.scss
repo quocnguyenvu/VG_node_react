@@ -1,0 +1,62 @@
+@import '../scss/utilities/variables';
+@import '../scss/utilities/mixin';
+
+.payment {
+  &-layout {
+    position: relative;
+    background-color: $bgc;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  &__left {
+    &::before {
+      content: '';
+      @include absolute(0, 0, 0, -50%);
+      background-color: $white;
+      width: 100%;
+      z-index: 1;
+    }
+    &::after {
+      content: '';
+      @include absolute(0, 0, 0, 0);
+      background-color: $white;
+      width: 100%;
+      z-index: 1;
+      @include respond-to('lg') {
+        left: 50%;
+      }
+      @include respond-to('md') {
+        left: 2rem;
+      }
+    }
+  }
+}
+
+.admin {
+  width: 100%;
+
+  &__nav {
+    position: fixed;
+    width: 256px;
+    z-index: 10;
+  }
+
+  &__wrapper {
+    padding-left: 256px;
+    width: calc(100% -256px);
+  }
+
+  &__language {
+    @include flex(flex-end, center, '', '', '');
+    padding-top: 2rem;
+  }
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.main {
+  min-height: 70vh;
+}

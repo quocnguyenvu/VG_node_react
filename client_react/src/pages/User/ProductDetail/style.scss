@@ -1,0 +1,223 @@
+@import '../../../scss/utilities/variables';
+@import '../../../scss/utilities/mixin';
+
+.productDetail {
+  &__review{
+    min-height: 500px;
+
+    .ant-tabs-nav-wrap{
+    display: flex;
+    justify-content: center;
+    }
+  }
+
+
+  #pointer-mini {
+    display: inline-block;
+    font-size: 20pt; //Width of pointer
+    width: 50px;
+    height: 1em;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0.6em;
+  }
+  .news {
+    background-color: $yellow;
+  }
+  .discount {
+    background-color: $red;
+  }
+  #pointer-mini:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 0.5em solid $white;
+    border-top: 0.5em solid transparent;
+    border-bottom: 0.5em solid transparent;
+  }
+  #pointer-mini:before {
+    content: '';
+    position: absolute;
+    right: -1em;
+    bottom: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .cnt {
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: $white;
+  }
+  padding: 5rem 0;
+
+  &__tabs {
+    &--img {
+      &-top,
+      &-bot {
+        img {
+          width: 100% !important;
+        }
+      }
+
+      .ant-tabs-nav-list {
+        width: 75%;
+      }
+    }
+  }
+  &__content {
+    &--title {
+      p {
+        font-weight: 600;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $border-color;
+      }
+    }
+
+    &--info {
+      padding-top: 1rem;
+      min-height: 240px;
+      p {
+        font-weight: 600;
+        line-height: 2;
+      }
+      .gray-color {
+        color: $light-black;
+        &:last-child {
+          color: $dark-gray;
+        }
+      }
+    }
+
+    Form {
+      p {
+        font-weight: 600;
+      }
+      padding-top: 2rem;
+      .productDetail__btn {
+        @include flex('', center, row, 1.5rem);
+        &--item {
+          background-color: $primary-color;
+          @include square(40px, 50%);
+          @include flex(center);
+          color: $white;
+          font-size: 1.5rem;
+          cursor: pointer;
+        }
+
+        button {
+          @include border-radius(5rem);
+          height: 4rem;
+          background-color: $primary-color;
+          color: $white;
+        }
+      }
+
+    }
+    .productDetail__social {
+      padding: 1rem 0;
+      @include flex-align-center();
+
+      div {
+        padding-left: 1rem;
+        @include flex('', center, row, 0.4rem);
+        img {
+          width: 6%;
+        }
+      }
+    }
+  }
+
+  &__quantity {
+    width: 40%;
+  }
+
+  .productDetail__service {
+    &--item {
+      padding: 1rem;
+      &-inner {
+        width: 100%;
+        background-color: $gray;
+        padding: 1.5rem;
+        span {
+          display: block;
+          margin: 0 auto;
+          color: $yellow;
+          @include square(50px, 50%);
+          background-color: $white;
+          @include flex(center, center);
+          svg {
+            font-size: 2.5rem;
+          }
+        }
+        text-align: center;
+        line-height: 2;
+        color: $dark-gray;
+        .title {
+          font-weight: 600;
+          color: $black;
+        }
+      }
+    }
+  }
+  &__description {
+    padding: 3rem 0;
+
+      .review__content {
+        min-height: 760px;
+        margin-bottom: 2rem;
+
+        p {
+          font-weight: 600;
+        }
+
+        .ant-collapse-header,
+        .ant-collapse-content-box {
+          padding: 1rem 0 !important;
+        }
+
+        .write__content {
+          text-decoration: underline;
+          color: $yellow;
+        }
+      }
+      .ant-tabs-nav-wrap {
+        justify-content: center;
+        padding-bottom: 2rem;
+        .ant-tabs-ink-bar {
+          display: none !important;
+        }
+        .ant-tabs-nav-list {
+          gap: 1rem;
+          .ant-tabs-tab {
+            @include flex(center);
+            width: 50%;
+            @include border-radius(50px);
+            padding: 1rem 2rem;
+            border: 1px solid $yellow;
+            margin: 0 !important;
+          }
+        }
+        .ant-tabs-tab.ant-tabs-tab-active {
+          background-color: $yellow;
+        }
+        .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+          color: $white;
+        }
+      }
+  }
+  &__related {
+    p {
+      font-weight: 600;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+}

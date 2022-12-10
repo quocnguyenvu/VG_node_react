@@ -1,0 +1,161 @@
+@import '../../../scss/utilities/mixin';
+@import '../../../scss/utilities/variables';
+
+.success {
+  background-color: $border-light;
+
+  .success {
+    &__container {
+      margin: 4rem 0;
+      padding: 2rem;
+      background-color: $white;
+
+      .text-danger {
+        color: $light-red;
+      }
+    }
+
+    &__title {
+      padding-bottom: 2.5rem;
+      text-align: center;
+      font-size: 2rem;
+      color: $dark-green;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    &__thank {
+      span {
+        font-weight: 600;
+      }
+    }
+
+    &__management {
+      @include flex;
+      margin: 2rem 0 1rem;
+      padding: 1rem 0.6rem;
+      background-color: $bgc;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+
+      h3 {
+        font-weight: 600;
+      }
+
+      button {
+        font-weight: 500;
+        color: $purple;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+      }
+    }
+
+    &__info {
+      &--item {
+        @include flex-align-center;
+        gap: 0.7rem;
+        padding: 0.3rem 0;
+
+        p {
+          font-weight: 600;
+        }
+
+        span {
+          font-weight: 300;
+        }
+      }
+    }
+
+    &__payment {
+      @include flex-align-center;
+      gap: 1rem;
+      margin: 2rem 0 1rem;
+      padding: 1rem 0.6rem;
+      background-color: $light-green-2;
+
+      p {
+        font-weight: 500;
+      }
+    }
+
+    &__cancel {
+      text-align: center;
+      padding: 2rem 0;
+      button {
+        text-transform: capitalize;
+        color: $blue;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+    &__contact {
+      padding-bottom: 1rem;
+      span {
+        color: $blue;
+        cursor: pointer;
+      }
+    }
+    &__cart {
+      &--title {
+        @extend .success__management;
+        margin-top: 0;
+      }
+      &--content {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 1em;
+      }
+      &--item {
+        cursor: pointer;
+        td {
+          vertical-align: middle;
+          &:nth-child(2) {
+            text-align: left;
+            padding-left: 3rem;
+          }
+          &:nth-child(3) {
+            text-align: right;
+          }
+        }
+      }
+      &_--name {
+        p {
+          padding-top: 0.5rem;
+        }
+      }
+      &--img {
+        position: relative;
+        padding: 0 1rem;
+        @include bgc-image(15%);
+        width: 16%;
+        border: 1px solid $border-color;
+        border-radius: 6px;
+        background-color: $white;
+
+        img {
+          @include absolute(0, '', '', 50%);
+          @include transform-translate(x, -50%);
+          width: 80%;
+          height: 100%;
+        }
+      }
+    }
+    &__btn {
+      text-align: center;
+      padding: 2rem 0;
+      button {
+        text-transform: uppercase;
+        color: $blue;
+        font-weight: 600;
+        border-radius: 4px;
+        padding: 1.4rem 3rem;
+        border: 1px solid $blue;
+        &:hover {
+          color: $primary-color;
+          border-color: $primary-color;
+        }
+      }
+    }
+  }
+}

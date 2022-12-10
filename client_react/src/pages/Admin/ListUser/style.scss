@@ -1,0 +1,81 @@
+@import '../../../scss/utilities/mixin';
+@import '../../../scss/utilities/variables';
+.admin__listUser {
+  width: 100%;
+  padding: 7rem 0;
+  &--btn {
+    padding-bottom: 3rem;
+    @include flex(flex-end, '', '', 2rem);
+    &-create {
+      .admin__listUser--btn-form {
+        input {
+          width: 100%;
+          border: 0.5px solid $gray;
+          &:focus {
+            border-color: #40a9ff;
+            border-right-width: 1px !important;
+            outline: 0;
+            box-shadow: 0 0 0 2px #1890ff33;
+          }
+        }
+      }
+    }
+  }
+  input {
+    width: 100%;
+    border: 0.5px solid $gray;
+    &:focus {
+      border-color: #40a9ff;
+      border-right-width: 1px !important;
+      outline: 0;
+      box-shadow: 0 0 0 2px #1890ff33;
+    }
+  }
+  &--tableNormal {
+    // table,
+    table {
+      width: 100%;
+      thead {
+        background-color: $gray;
+      }
+      tr {
+        border-top: 1px solid $gray;
+        border-bottom: 1px solid $gray;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 1rem;
+      }
+      tbody {
+        tr {
+          td:first-child {
+            padding-left: 1rem;
+          }
+          td {
+            &:nth-child(6) {
+              width: 20%;
+              div {
+                @include flex('', '', '', 3rem);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &--pagination {
+    padding-top: 3rem;
+    @include flex(flex-end);
+  }
+}
+.example {
+  margin: 20px 0;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}

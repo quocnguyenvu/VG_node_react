@@ -1,0 +1,35 @@
+@import '../../../scss/utilities/variables';
+@import '../../../scss/utilities/mixin';
+
+.action-cart-manage{
+    button:first-child{
+        margin-right: 1rem;
+    }
+}
+
+.bill-detail-modal{
+    max-height: 60vh;
+
+   width:100%;
+   
+}
+
+// .ant-modal-body{
+//     min-height: 70vh !important;
+//     overflow-y: auto;
+    
+// }
+
+#order-detail-products{
+    >div{
+        max-height: 220px;
+        overflow-y: auto;
+    }
+}
+
+.loading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

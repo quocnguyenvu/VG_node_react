@@ -1,0 +1,651 @@
+{
+  "header_text": {
+    "free": "Free shipping",
+    "order": "Orders From All item",
+    "search": "Show all results"
+  },
+  "language": {
+    "name": "Language",
+    "english": "English",
+    "vietnam": "Vietnamese"
+  },
+  "Home": "Home",
+  "Shop": "Shop",
+  "Products": "Products",
+  "About Us": "About Us",
+  "Faq's": "Faq's",
+  "Contact Us": "Contact Us",
+  "Discount": "Discount",
+  "Blog": "Blog",
+  "Account": "Account",
+  "Register": "Register",
+  "Login": "Login",
+  "Hotline": "Hotline",
+  "Free delivery": "Free delivery",
+  "Cash On Delivery": "Cash On Delivery",
+  "30 Days Returns": "30 Days Returns",
+  "Online Support": "Online Support",
+  "Address": "Address",
+  "ConfirmPassword": "Confirm Password",
+  "confirm_password_message": "The two passwords that you entered do not match!",
+  "Contact": {
+    "title": "Contact",
+    "description": "Got a question? We had love to hear from you. Send us a message and we will respond as soon as possible.",
+    "Drop us message": "Drop us message",
+    "Name": "Name",
+    "Email": "Email",
+    "Message": "Message",
+    "Enter your name": "Enter your name",
+    "Enter your email address": "Enter your email address",
+    "Your message here": "Your message here...",
+    "Get in touch": "Get in touch",
+    "Get description": "We are happy to receive contact from you. We look forward to assisting you so that you can have a great experience.",
+    "SUBMIT": "SUBMIT",
+    "Contact": "Contact",
+    "Contact Notify": "Contact sent successfully!",
+    "Contact Delete": "Do you want to delete this message"
+  },
+  "Cart": "Cart",
+  "Add card success": "Add card success",
+  "notFound": "No search results for",
+  "Categories": {
+    "Privacy_Terms.name": "name",
+    "Privacy_Terms.Payment policy": "Payment Policy",
+    "Privacy_Terms.Privacy policy": "Privacy Policy",
+    "Privacy_Terms.Return policy": "Return Policy",
+    "Privacy_Terms.shipping policy": "Shipping Policy",
+    "Privacy_Terms.Terms & Conditions": "Terms & Conditions",
+    "Top_Categories": {
+      "name": "Top Categories",
+      "Fruits": "Fruits",
+      "Fast Foods": "Fast Foods",
+      "Vegetables": "Vegetables",
+      "Salads": "Salads",
+      "Bestseller": "Bestseller"
+    },
+    "Services": {
+      "name": "Services",
+      "About Vegana": "About Vegana",
+      "Faq's": "Faq's",
+      "Contact Us": "Contact Us",
+      "News": "News",
+      "Sitemap": "Sitemap"
+    },
+    "My_Account": {
+      "name": "My Account",
+      "My Account": "My Account",
+      "My Cart": "My Cart",
+      "Order History": "Order History",
+      "My Wishlist": "My Wishlist",
+      "My Address": "My Address"
+    }
+  },
+  "register": {
+    "create": "Create Account",
+    "text": "Please register below account detail",
+    "button register": "CREATE ACCOUNT",
+    "already": "Already an account holder ?",
+    "button login": "Log in"
+  },
+  "login": {
+    "create": "Login",
+    "text": "Please login below account detail",
+    "button register": "SIGN IN",
+    "already": "Don't have account ?",
+    "button login": "Create account",
+    "forgot": "Forgot your password ?"
+  },
+  "Terms & Conditions": {
+    "title": "Terms & Conditions",
+    "content": "Your privacy and security are important to us. For more information on how we use your data read our",
+    "privacy": "privacy policy"
+  },
+  "validate": {
+    "first": "First name can't be blank !",
+    "last": "Last name can't be blank !",
+    "email": {
+      "required": "Email can't be blank !",
+      "regex": "Invalid email field !",
+      "max": "Email cannot exceed 50 characters !"
+    },
+    "password": {
+      "password": "Password",
+      "required": "Password can't be blank !",
+      "regex": "Password must not be less than 8 characters !"
+    },
+    "zipCode": "ZIP code must contain 6 digits !",
+    "address": {
+      "required": "Address can't be blank !",
+      "max": "The address cannot exceed 100 characters !"
+    },
+    "phone": {
+      "required": "Phone number can't be blank !",
+      "regex": "Invalid phone number !"
+    },
+    "firstName": {
+      "max": "First name must not exceed 50 characters !",
+      "required": "First name can't be blank !"
+    },
+    "lastName": {
+      "max": "Last name must not exceed 20 characters !",
+      "required": "Last name can't be blank !"
+    },
+    "name": {
+      "max": "Name must not exceed 40 characters !",
+      "required": "Name can't be blank !"
+    },
+    "message": {
+      "max": "Message must not exceed 1000 characters !",
+      "required": "Message can't be blank !"
+    },
+    "category": {
+      "required": "Product line can't be blank !"
+    },
+    "tag": {
+      "required": "Tag can't be blank !"
+    },
+    "origin": {
+      "required": "Total product can't be blank !"
+    },
+    "size": {
+      "regex": "Minimum size is 1kg, maximum 99kg !",
+      "required": "Size can't be blank !"
+    },
+    "price": {
+      "regex": "Minimum price is 10.000, maximum 99.000.000 !",
+      "required": "Price can't be blank !",
+      "interger": "Price must be a positive integer !"
+    },
+    "image": {
+      "required": "Choose 4 pictures !"
+    },
+    "Short description": {
+      "required": "Short description can't be blank !"
+    },
+    "search": {
+      "required": "Bạn chưa nhập từ khóa !"
+    },
+    "discount": {
+      "max": "Discount name cannot be longer than 50 characters !",
+      "required": "Discount name can't be blank !",
+      "percent": "Discount percentage must be a positive integer between 1 and 100",
+      "description": {
+        "required": "Description can't be blank !",
+        "code name": "\nDiscount code containing only characters 0-9, a-z, A-Z"
+      },
+      "code name": "\nThe discount code only contains characters 0-9, A-Z and the first 3 characters are uppercase",
+      "max 20": "Discount name cannot be longer than 20 characters !",
+      "amount": {
+        "required": "Amount can't be blank !"
+      }
+    },
+    "discount name": {
+      "required": "Discount code can't be blank !"
+    },
+    "total": {
+      "interger": "\nTotal product must be a positive integer !\n",
+      "required": "Total product can't be blank !"
+    },
+    "amount": {
+      "interger": "\nAmount must be a positive integer !",
+      "regex": "Minimum amount is 1.000, maximum 99.000.000 !"
+    },
+    "string": "Last name do not include numbers and special characters !",
+    "first name": {
+      "string": "First name do not include numbers and special characters !"
+    }
+  },
+  "home": {
+    "banner": {
+      "shop now": "shop now",
+      "fresh fruit vegetable": "Fresh fruit,vegetable ",
+      "on our product": "On our product",
+      "Vegetable Eggplant": "Vegetable Eggplant ",
+      "100% Fresh food": "100% Fresh food"
+    },
+    "countdown": {
+      "title": "Deal Of The Day!",
+      "thumbnail": "We offer a hot deal offer every festival",
+      "day": "day",
+      "hrs": "hrs",
+      "min": "min",
+      "sec": "sec",
+      "shop collection": "shop collection"
+    },
+    "product": {
+      "Special Product": "Special Product",
+      "New Product": "New Product",
+      "Bestseller": "Bestseller"
+    },
+    "shopify": {
+      "title": "Get The Latest Deals",
+      "sub": "And Receive 20% Off Coupon For First Shopping",
+      "placeholder": "Enter Your Email Address",
+      "subscribe": "Subscribe"
+    },
+    "category": {
+      "title": "Shop By Category"
+    }
+  },
+  "category": {
+    "Baker's Rack": "Baker's Rack",
+    "Breakfast": "Breakfast",
+    "Dairy & Chesse": "Dairy & Chesse",
+    "Dinner": "Dinner",
+    "Featured Product": "Featured Product",
+    "Fresh Fruits": "Fresh Fruits ",
+    "Fresh Meat": "Fresh Meat ",
+    "Fresh Vegetable": "Fresh Vegetable",
+    "Green Seafood": "Green Seafood",
+    "New Product": "New Product",
+    "Sea & Fish": "Sea & Fish",
+    "Organic Juice": "Organic Juice ",
+    "Organic Dryfruit": "Organic Dryfruit"
+  },
+  "tags": {
+    "Almond": "Almond",
+    "banana": "banana",
+    "bitrrot": "bitrrot",
+    "blackberry": "blackberry",
+    "chikoo": "chikoo",
+    "guava": "guava",
+    "juice": "juice",
+    "minirrot": "minirrot",
+    "mussel": "mussel",
+    "onion": "onion",
+    "organic-food": "organic-food"
+  },
+  "products": {
+    "sort by": "Sort by",
+    "Featured": "Featured",
+    "Best Selling": "Best Selling",
+    "Price, low to high": "Price, low to high",
+    "Price, high to low": "Price, high to low",
+    "Date, new to old": "Date, new to old",
+    "Categories": "Categories",
+    "Filter by Price": "Filter by Price",
+    "Filter by Tags": "Filter by Tags",
+    "Showing": "Showing",
+    "of": "of",
+    "result": "result",
+    "placeholder": "Select a type",
+    "Anything...": "Anything...",
+    "Organic Juice ": "Organic Juice ",
+    "Organic Dryfruit": "Organic Dryfruit",
+    "New": "New",
+    "Hot": "Hot"
+  },
+  "productDetail": {
+    "Review": "Write a review",
+    "Review__customer": "Customer Review",
+    "Review__rating": "Rating",
+    "Review__title": "Review Title",
+    "Review__body": "Body of Review (255)characters remaining",
+    "Review__submit": "Review submit",
+    "Review__validate": {
+      "title": "Please input your title !",
+      "content": "Content must be less than 255 characters"
+    },
+    "Availability": "Availability",
+    "Availability__stock": "In stock",
+    "Availability__new": "News",
+    "Hurry up": "Hurry up !",
+    "Size": "Size",
+    "Material": "Material",
+    "Quantity": "Quantity",
+    "Share": "Share",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and",
+    "DELIVERY INFO": "DELIVERY INFO",
+    "DELIVERY TEXT": "From then, delivery is generally within 2-10 days, depending on your location.",
+    "30 DAYS RETURNS": "30 DAYS RETURNS",
+    "30 DAYS RETURNS TEXT": "Not the right fit? No worries. We'll arrange pick up and a full refund within 7 days including the delivery fee.",
+    "10 YEAR WARRANTY": "10 YEAR WARRANTY",
+    "10 YEAR WARRANTY TEXT": "Quality comes first and our products are designed to last.",
+    "DESCRIPTION": "DESCRIPTION",
+    "bill": "Not the right fit? No worries. We'll arrange pick up and a full refund within 7 days including the delivery fee.",
+    "REVIEW": "REVIEW"
+  },
+  "cart": {
+    "Yes": "Yes",
+    "No": "No",
+    "Are you sure delete this product?": "Are you sure delete this product?",
+    "Warning": "Warning",
+    "You can only order up to 30 products": "You can only order up to 30 products.",
+    "My Cart": "My Cart",
+    "item": "Item",
+    "Unit": "Unit: ",
+    "Clear Cart": "Clear Cart",
+    "Continue Shopping": "Continue Shopping",
+    "Subtotal": "Subtotal",
+    "Total": "Total",
+    "Shipping Info": "Shipping Info",
+    "Country": "Country",
+    "Zip/Postal code": "Zip/Postal code",
+    "The shopping cart has no products": "The shopping cart has no products",
+    "Do you want to delete all products": "Do you want to delete all products?",
+    "Checkout": "Checkout",
+    "You can only order a minimum of 1 product": "You can only order a minimum of 1 product"
+  },
+  "Profile": {
+    "Info Manage": "Info Manage",
+    "Order Manage": "Order Manage",
+    "welcome": "Welcome",
+    "edit": "Edit password",
+    "inner": "Inner Password",
+    "new": "New Password",
+    "confirm": "Confirm Password",
+    "confirm_pw": "The password you entered is the same as the old password !",
+    "confirm_pwNew": "Password don't matches !",
+    "max": "No more than 20 characters !",
+    "submit": "Submit",
+    "account": {
+      "title": "Account Detail",
+      "name": "Name",
+      "address": "Address",
+      "phone": "Phone number",
+      "edit": "EDIT PROFILE",
+      "first": "First Name",
+      "last": "Last Name",
+      "cancel": "Cancel",
+      "save": "Save",
+      "password": "Password",
+      "role": "Role",
+      "user": "User",
+      "admin": "Admin"
+    }
+  },
+  "orderHistory": {
+    "title": "Order History",
+    "content": "You haven't placed any orders yet !"
+  },
+  "payments": {
+    "breadcrumb": {
+      "Cart": "Cart",
+      "Information": "Information",
+      "Shipping": "Shipping",
+      "Payment": "Payment"
+    },
+    "information": {
+      "check": "Keep me up to date on news and offers.",
+      "Country/region": "Country/region",
+      "First name": "First name",
+      "Last name": "Last name",
+      "Address": "Address",
+      "Phone": "Phone",
+      "ZIP code": "ZIP code",
+      "Continue to shipping": "Continue to shipping",
+      "Return to cart": "Return to cart"
+    },
+    "shipping": {
+      "Contact": "Contact",
+      "Ship to": "Ship to",
+      "Change": "Change",
+      "Shipping method": "Shipping method",
+      "Your cart has been updated and the previous shipping rate isn’t valid. Select a new rate.": "Your cart has been updated and the previous shipping rate isn’t valid. Select a new rate.",
+      "Standard": "Standard",
+      "Continue to payment": "Continue to payment",
+      "Return to information": "Return to information"
+    },
+    "payment": {
+      "Method": "Method",
+      "Payment": "Payment",
+      "All transactions are secure and encrypted": "All transactions are secure and encrypted.",
+      "This store can only pay with COD": "This store can only pay with COD",
+      "Credit card": "Credit card",
+      "Cash on Delivery (COD)": "Cash on Delivery (COD)",
+      "Billing address": "Billing address",
+      "Select the address that matches your card or payment method.": "Select the address that matches your card or payment method.",
+      "Same as shipping address": "Same as shipping address",
+      "Use a different billing address": "Use a different billing address",
+      "Complete order": "Complete order",
+      "Return to shipping": "Return to shipping"
+    }
+  },
+  "infoCart": {
+    "Discount": "Discount",
+    "Discount code": "Discount code",
+    "Apply": "Apply",
+    "Subtotal": "Subtotal",
+    "Shipping cost": "Shipping cost",
+    "Calculated at next step": "Calculated at next step",
+    "Total": "Total"
+  },
+  "success": {
+    "Order Success": "Order Success",
+    "Thanks": "Thank you for giving Vegana the opportunity to serve. Please follow by clicking",
+    "Order Management": "Order Management",
+    "Order": "Order",
+    "Receiver": "Receiver",
+    "Delivery address": "Delivery address",
+    "Staff will call to confirm before delivery": "Staff will call to confirm before delivery",
+    "Estimated delivery time": "Estimated delivery time",
+    "day": "day",
+    "Total amount": "Total amount",
+    "Payment type": "Payment type",
+    "Order Cancellation": "Order Cancellation",
+    "When you need help, please call": "When you need help, please call",
+    "Products purchased": "Products purchased",
+    "amount": "Amount",
+    "return to home page": "return to home page"
+  },
+  "admin": {
+    "category_side_bar": "Categoty Management",
+    "tag_side_bar": "Tag Management",
+    "tag_placeholder": "Enter tag name...",
+    "category_name": "Category name",
+    "category_name_placeholder": "Enter category name...",
+    "no": "No.",
+    "name": "Name",
+    "actions": "Actions",
+    "button_add_tag": "Add tag",
+    "button_add_category": "Add category",
+    "tag_search": "Search tag...",
+    "category_search": "Search category...",
+    "images": "Images",
+    "description": "Description",
+    "create_category": "Create category",
+    "edit_category": "Edit category",
+    "edit_tag": "Edit tag",
+    "create_tag": "Create tag",
+    "update": "Update",
+    "add": "Add",
+    "add_tag_title": "Create new tag",
+    "listUser": {
+      "title": "User Management",
+      "user delete": "Do you want to delete this user"
+    },
+    "listProduct": {
+      "title": "Product Management "
+    },
+    "listOrder": {
+      "title": "Order Management "
+    },
+    "listComment": {
+      "title": "Comment Management "
+    },
+    "listContact": {
+      "title": "Contact Management "
+    },
+    "Dashboard": {
+      "title": "Dashboard"
+    },
+    "discount": {
+      "title": "Discount Management",
+      "StartDate": "Start date",
+      "EndDate": "End date",
+      "Add new": "Add new",
+      "key": "Key",
+      "Discount name": "Discount name",
+      "Discount code": "Discount code",
+      "Percent": "Percent",
+      "Start date": "Start date",
+      "End date": "End date",
+      "Quantity": "Quantity",
+      "Action": "Action",
+      "Search": "Search a discount...",
+      "Add": "ADD DISCOUNT CODE",
+      "CREATE DISCOUNT CODE": "CREATE DISCOUNT CODE",
+      "Discount type": "Discount type",
+      "Amount": "Amount",
+      "Percent / Amount": "Percent / Amount",
+      "discount delete": "Do you want to delete discount name",
+      "status": "Status"
+    },
+    "table": {
+      "name": "NAME",
+      "address": "ADDRESS",
+      "phone": "PHONE",
+      "action": "ACTION",
+      "role": "ROLE",
+      "status": "STATUS"
+    },
+    "products": {
+      "More new products": "More new products",
+      "Enter product name": "Enter product name...",
+      "Product's name": "Product's name",
+      "Category": "Category",
+      "Select category": "Select category...",
+      "Enter price": "Enter price...",
+      "Price": "Price",
+      "Enter sale": "Enter sale",
+      "Select...": "Select...",
+      "Unit": "Unit",
+      "Select unit": "Select unit...",
+      "Origin": "Origin",
+      "Tag": "Tag",
+      "Sale": "Sale",
+      "Select tag": "Select tag",
+      "Image": "Image",
+      "Short description": "Short description",
+      "Enter short description": "Enter Short description...",
+      "Describe": "Describe",
+      "Enter describe": "Enter describe...",
+      "Add new": "Add new",
+      "Add product": "Add product",
+      "Search a product": "Search a product...",
+      "Edit": "Edit",
+      "Create discount": "Create discount code",
+      "Enter discount name": "Enter discount name",
+      "Discount code": "Discount code",
+      "Enter discount code": "Enter discount code",
+      "Percent": "Percent",
+      "Enter percent": "Enter percent",
+      "Quantity": "Quantity",
+      "Enter quantity": "Enter quantity",
+      "Key": "Key",
+      "Name": "Name",
+      "Discount": "Discount",
+      "Current price": "Current price",
+      "Action": "Action",
+      "Total product": "Total product",
+      "Enter total product": "Enter total product",
+      "Total": "Total",
+      "Enter description": "Enter description",
+      "Description": "Description",
+      "Enter amount": "Enter amount",
+      "product delete": "Do you want to delete this product"
+    },
+    "sales": {
+      "title": "Discount Management"
+    },
+    "home": "Home",
+    "Back": "BACK",
+    "user": {
+      "Search a user": "Search a user...",
+      "Email": "EMAIL"
+    },
+    "Add new": "Add new",
+    "order": {
+      "Select a status": "Select a status",
+      "Search": "Search a payment code or a user...",
+      "By Sort": "By Sort",
+      "Payment Code": "Payment Code",
+      "User Name": "User Name",
+      "Total Price": "Total Price",
+      "Date Time": "Date Time",
+      "Status": "Status",
+      "Action": "Action",
+      "Cancel": "Cancel",
+      "ORDER DETAIL": "ORDER DETAIL",
+      "Order name": "Orderer's name",
+      "Recipient name": "Recipient's name",
+      "Phone Number": "Phone Number",
+      "Address": "Address",
+      "Payment Status": "Payment Status",
+      "Order Status": "Order Status",
+      "Products": "Products",
+      "Image": "Image",
+      "Name": "Name",
+      "Quantity": "Quantity",
+      "Price": "Price",
+      "GO TO LIST ORDER": "GO TO LIST ORDER",
+      "payment delete": "Do you want to delete this payment",
+      "payment cancel": "Do you want to cancel this payment"
+    },
+    "comment": {
+      "Name Product": "Name Product",
+      "User Name": "User Name",
+      "Title": "Title",
+      "Content": "Content",
+      "Rating": "Rating",
+      "Date Time": "Date Time",
+      "Action": "Action",
+      "Search": "Search a product or a user...",
+      "comment delete": "Do you want to delete this comment"
+    },
+    "contact": {
+      "Full Name": "Full Name",
+      "Email": "Email",
+      "Message": "Message",
+      "Date Time": "Date Time",
+      "Action": "Action"
+    }
+  },
+  "logout": "Logout",
+  "Related Product": "Related Product",
+  "Category": "Category",
+  "Footer": {
+    "Payment policy": "Payment policy"
+  },
+  "Payment policy": "Payment policy",
+  "Full Name": "Full name",
+  "Email": "Email",
+  "DELIVERY INFO": "DELIVERY INFO\n",
+  "30 DAYS RETURNS": "30 DAYS RETURNS",
+  "10 YEAR WARRANTY": "10 YEAR WARRANTY",
+  "Info Manage": "Info Manage",
+  "Order Manage": "Order Manage",
+  "profile": {
+    "Info Manage": "Info Manage",
+    "Order Manage": "Order Manage"
+  },
+  "prodcutDetail": {
+    "DELIVERY TEXT": "From then, delivery is generally within 2-10 days, depending on your location.",
+    "10 YEAR WARRANTY TEXT": "Quality comes first and our products are designed to last.",
+    "replies": "Replies"
+  },
+  "Last Name": "Last name\n",
+  "Phone Number": "Phone Number",
+  "First Name": "First Name",
+  "header text": {
+    "free": "Free Shipping"
+  },
+  "List Discount": "List Discount",
+  "Cancel Bill": "Cancel Bill",
+  "Notice file cancel": "Are you sure you want to cancel your order ?",
+  "PRODUCT": "PRODUCT",
+  "DATE": "DATE",
+  "TOTAL": "TOTAL",
+  "STATUS": "STATUS",
+  "ACTION": "ACTION",
+  "input search text": "input search text",
+  "Sort by": "Sort by",
+  "action": {
+    "warning": "Hãy đăng nhập để thực hiện hành động này !"
+  },
+  "discount": {
+    "Out date": "Out date",
+    "In date": "In date",
+    "comming soon": "Comming soon"
+  }
+}

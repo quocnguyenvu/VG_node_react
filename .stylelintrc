@@ -1,0 +1,16 @@
+{
+  "plugins": ["stylelint-prettier"],
+  "processors": ["stylelint-processor-html"],
+  "extends": ["stylelint-prettier/recommended"],
+  "rules": {
+    "prettier/prettier": true,
+    "indentation": 2,
+    "at-rule-empty-line-before": null,
+    "function-comma-space-after": null,
+    "declaration-block-no-shorthand-property-overrides": null,
+    "no-empty-source": null,
+    "no-descending-specificity": null,
+    "selector-pseudo-element-colon-notation": null,
+    "at-rule-no-unknown": null
+  }
+}

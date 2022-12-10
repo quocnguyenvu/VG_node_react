@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial;
+
+  &__item {
+    font-size: 18px;
+    border-left: 5px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    border-radius: 4px;
+    flex: 0 0 calc(33.33% - 1.5rem);
+
+    &:nth-of-type(1) {
+      border-left: 5px solid #c9032c;
+    }
+    &:nth-of-type(2) {
+      border-left: 5px solid #28a745;
+    }
+    &:nth-of-type(3) {
+      border-left: 5px solid gray;
+    }
+  }
+
+  &__content {
+    padding: 16px 16px 24px;
+  }
+
+  &__title {
+    margin-bottom: 5px;
+  }
+
+  &__count {
+    font-weight: bold;
+  }
+}

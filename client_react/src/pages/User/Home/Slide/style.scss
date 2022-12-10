@@ -1,0 +1,216 @@
+@import '../../../../scss/utilities/mixin';
+@import '../../../../scss/utilities/variables';
+
+.slide {
+  .slick-prev,
+  .slick-next {
+    @include width-height(5rem);
+    position: absolute;
+    margin: 0;
+
+    z-index: 1;
+    &:hover {
+      &::before {
+        color: $primary-color;
+      }
+    }
+    &::before {
+      font-size: 3.4rem;
+    }
+  }
+
+  &-category {
+    .slick-prev,
+    .slick-next {
+      &::before {
+        color: transparent;
+        @include transition(all, 0.3s, linear);
+      }
+    }
+
+    &:hover {
+      .slick-prev,
+      .slick-next {
+        &::before {
+          color: $primary-color;
+        }
+      }
+    }
+
+    &__item {
+      position: relative;
+      border-radius: 50%;
+      overflow: hidden;
+
+      &:hover {
+        .slide-category__content {
+          transform: scale(1, 1);
+        }
+      }
+    }
+
+    &__img {
+      position: relative;
+      display: block;
+      @include bgc-image(100%);
+      img {
+        @include absolute(0, '', '', 0);
+        @include width-height(100%);
+      }
+    }
+
+    &__content {
+      @include absolute(0, 0, 0, 0);
+      @include flex(center);
+      transform: scale(0, 0);
+      @include transition(all, 0.3s, linear);
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    &__title {
+      width: 60%;
+      text-align: center;
+      color: $white;
+      font-size: 1.8rem;
+      font-weight: 500;
+    }
+  }
+
+  &-product {
+    &__col {
+      width: 100%;
+      padding: 1rem 0;
+    }
+  }
+
+  &-category,
+  &-product {
+    .slick-slide {
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+    }
+    .slick-slide + .slick-slide {
+      padding: 1rem;
+    }
+    .slick-prev,
+    .slick-next {
+      &::before {
+        color: transparent;
+        @include transition(all, 0.3s, linear);
+      }
+    }
+    .slick-prev {
+      left: -2rem;
+      top: 50%;
+    }
+    .slick-next {
+      right: -2rem;
+      top: 50%;
+    }
+
+    &:hover {
+      .slick-prev,
+      .slick-next {
+        &::before {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.slideShow {
+  position: relative;
+  z-index: 1;
+
+  &__img {
+    min-height: 54rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include respond-to('lg') {
+      min-height: 40rem;
+    }
+    @include respond-to('md') {
+      min-height: 35rem;
+    }
+  }
+
+  &__content {
+    h4 {
+      font-size: 2.4rem;
+      font-weight: 500;
+      @include respond-to('lg') {
+        font-size: 2em;
+      }
+      @include respond-to('md') {
+        font-size: 1.6em;
+      }
+      @include respond-to('sm') {
+        font-size: 1.3em;
+      }
+    }
+
+    h2 {
+      font-size: 5rem;
+      font-weight: 600;
+      padding: 1.5rem 0;
+      @include respond-to('xl') {
+        font-size: 3.4em;
+      }
+      @include respond-to('lg') {
+        font-size: 3em;
+        padding: 1rem 0;
+      }
+      @include respond-to('md') {
+        font-size: 2.4em;
+      }
+      @include respond-to('sm') {
+        font-size: 1.8em;
+      }
+    }
+
+    &--1 {
+      @include transform-translate(xy, 10%, 55%);
+    }
+
+    &--2 {
+      @include transform-translate(xy, -10%, 55%);
+      @include flex(flex-end, flex-end, column);
+    }
+
+    &--3 {
+      @include transform-translate(xy, 0%, 60%);
+      text-align: center;
+      @include respond-to('xl') {
+        @include transform-translate(xy, 0%, 67%);
+      }
+      @include respond-to('lg') {
+        @include transform-translate(xy, 0%, 60%);
+      }
+    }
+  }
+
+  .slick-prev {
+    left: 1rem;
+    top: 50%;
+  }
+
+  .slick-next {
+    right: 1rem;
+    top: 50%;
+  }
+
+  .slick-dots {
+    width: auto;
+    right: 50%;
+    bottom: 2.5rem;
+    @include transform-translate(x, 50%);
+  }
+
+  .slick-dots li button::before {
+    font-size: 1rem;
+  }
+}

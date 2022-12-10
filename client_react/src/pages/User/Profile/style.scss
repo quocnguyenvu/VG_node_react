@@ -1,0 +1,213 @@
+@import '../../../scss/utilities/variables';
+@import '../../../scss/utilities/mixin';
+$border-input: #1890ff33;
+.profile {
+  min-height: 50vh;
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    background-color: #eee;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: gray;
+  }
+
+  h6 {
+    color: $white;
+  }
+  font-size: 1.7rem;
+  h2 {
+    padding: 2rem 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  line-height: 2;
+
+  &__content {
+    min-height: 500px;
+
+    &--cart {
+      p {
+        font-size: 2rem;
+        font-weight: 550;
+      }
+      ul {
+        width: 50%;
+        @include respond-to('xs') {
+          width: 100%;
+        }
+        li {
+          cursor: pointer;
+          font-weight: 500;
+
+          &:hover span {
+            color: $yellow;
+          }
+        }
+      }
+      .ant-collapse-header {
+        padding: unset !important;
+        span {
+          font-size: initial;
+          span {
+            padding-left: 1rem;
+          }
+        }
+      }
+    }
+
+    &--info {
+      > p {
+        font-size: 2rem;
+        font-weight: 550;
+      }
+
+      &-detail {
+        .info__detail-inner {
+        
+          input {
+            width: 100%;
+            border: 0.5px solid $gray;
+            padding: .2rem 1rem;
+            &:focus {
+              border-color: $blue;
+              border-right-width: 1px !important;
+              outline: 0;
+              box-shadow: 0 0 0 2px $border-input;
+            }
+          }
+          padding: 1rem 0;
+          @include flex('');
+          text-align: left;
+
+          p {
+            width: 50%;
+          }
+
+          div {
+            width: 50%;
+            @include flex('', '', column);
+            div {
+              width: 100%;
+              @include flex('', '', '', 1rem);
+            }
+          }
+          .error-message {
+            color: $red;
+          }
+        }
+        .btn-profile {
+          display: flex;
+          gap: 2rem;
+        }
+
+        .fullName{
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  .profile__order {
+    padding: 2rem 0 4rem;
+    &--title {
+      font-size: 1.7rem;
+      font-weight: 600;
+      padding-bottom: 2rem;
+    }
+
+    td {
+      vertical-align: middle;
+      text-align: center;
+    }
+    .ant-table-thead {
+      .ant-table-cell {
+        vertical-align: middle;
+        text-align: center;
+      }
+    }
+    .ant-table-cell:first-child {
+      width: 20%;
+    }
+    .name-order {
+      text-align: center;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+
+
+    &-content-action{
+      display: flex;
+      justify-content: flex-end;
+      gap: 2rem;
+      padding: 10px 0;
+
+        .action-select{
+          .ant-select{
+            min-width:120px;
+          }
+        }
+    }
+  }
+}
+
+.bill-table {
+  width: 100%;
+  thead {
+    background-color: $gray;
+  }
+  tr {
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 1rem;
+  }
+  tbody {
+    tr {
+      td:first-child {
+        padding-left: 1rem;
+      }
+      td {
+        &:nth-child(6) {
+          width: 20%;
+          div {
+            @include flex('', '', '', 3rem);
+          }
+        }
+        &:nth-child(2) {
+          width: 15%;
+        }
+      }
+    }
+  }
+
+  &.bill-table--detail{
+    min-height: 490px;
+    td{
+      vertical-align: middle;
+    }
+
+    tbody{
+      max-height: 50vh;
+      overflow-y: auto;
+      
+
+      td {
+        width: auto !important;
+      }
+    }
+    img{
+      width: 150px;
+    }
+  }
+}
+
+.bill-table__detail-total{
+  float: right;
+}

@@ -1,0 +1,47 @@
+@import '../../scss/utilities/mixin';
+@import '../../scss/utilities/variables';
+
+.breadcrumb {
+  &__container {
+    position: relative;
+    @include bgc-image(11%);
+    min-height: 10rem;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  &__content {
+    @include absolute(50%, '', '', 50%);
+    @include transform-translate(xy, -50%);
+    @include flex(center, center, column);
+    gap: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  span {
+    cursor: pointer;
+  }
+
+  &__text {
+    color: $primary-color;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: '';
+      @include width-height(1.5px, 1.5rem);
+      background-color: $primary-color;
+    }
+
+    &::before {
+      @include absolute(-100%, '', '', 45%);
+      -webkit-animation: toTop 1.6s linear infinite;
+      animation: toTop 1.6s linear infinite;
+    }
+
+    &::after {
+      @include absolute(-100%, '', '', 55%);
+      -webkit-animation: toBottom 1.5s linear infinite;
+      animation: toBottom 1.6s linear infinite;
+    }
+  }
+}

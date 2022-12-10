@@ -1,0 +1,665 @@
+{
+  "header_text": {
+    "free": "Giao hàng miễn phí",
+    "order": "Đặt hàng từ tất cả mặt hàng",
+    "search": "Hiển thị tất cả kết quả"
+  },
+  "language": {
+    "name": "Ngôn ngữ",
+    "english": "Tiếng Anh",
+    "vietnam": "Tiếng Việt"
+  },
+  "ConfirmPassword": "Xác nhận mật khẩu",
+  "confirm_password_message": "Mật khẩu đã nhập không trùng khớp",
+  "Home": "Trang chủ",
+  "Logout": "Đăng xuất",
+  "Shop": "Cửa hàng",
+  "Products": "Sản phẩm",
+  "About Us": "Về chúng tôi",
+  "Faq's": "Hỏi đáp",
+  "Discount": "Mã giảm giá",
+  "Contact Us": "Liên hệ với chúng tôi",
+  "Blog": "Nhật ký",
+  "Account": "Tài khoản",
+  "Register": "Đăng ký",
+  "Login": "Đăng nhập",
+  "Hotline": "Đường dây nóng",
+  "Free delivery": "Giao hàng miễn phí",
+  "Cash On Delivery": "Thanh toán khi nhận hàng",
+  "30 Days Returns": "Đổi trả trong 30 ngày",
+  "Online Support": "Hỗ trợ trực tuyến",
+  "Address": "Địa chỉ",
+  "Contact": {
+    "title": "Liên hệ",
+    "description": "Có một câu hỏi? Chúng tôi rất thích nghe từ bạn. Gửi tin nhắn cho chúng tôi và chúng tôi sẽ trả lời sớm nhất có thể.",
+    "Drop us message": "Gửi tin nhắn cho chúng tôi",
+    "Name": "Tên",
+    "Email": "Email",
+    "Message": "Thông điệp",
+    "Enter your name": "Nhập tên",
+    "Enter your email address": "Nhập email",
+    "Your message here": "Nhập thông điệp tại đây...",
+    "Get in touch": "Liên lạc",
+    "Get description": "Chúng tôi rất vui khi được nhận liên hệ từ các bạn. Rất mong được hỗ trợ các bạn để các bạn có thể có được những trải nghiệm tuyệt vời.",
+    "SUBMIT": "GỬI",
+    "Contact": "Liên hệ",
+    "Contact Notify": "Gửi liên hệ thành công!",
+    "Contact Delete": "Bạn có muốn xóa liên hệ này không"
+  },
+  "Cart": "Giỏ hàng",
+  "Add card success": "Thêm vào giỏ hàng thành công",
+  "notFound": "Không có kết quả tìm kiếm cho từ khóa",
+  "Categories": {
+    "Privacy_Terms.name": "tên",
+    "Privacy_Terms.Payment policy": "Chính sách thanh toán",
+    "Privacy_Terms.Privacy policy": "Chính sách bảo mật",
+    "Privacy_Terms.Return policy": "Chính sách hoàn trả",
+    "Privacy_Terms.shipping policy": "Chính sách vận chuyển",
+    "Privacy_Terms.Terms & Conditions": "Điều kiện & Điều khoản",
+    "Top_Categories": {
+      "name": "Danh mục hàng đầu",
+      "Fruits": "Trái cây",
+      "Fast Foods": "Thức ăn nhanh",
+      "Vegetables": "Rau củ",
+      "Salads": "Salads",
+      "Bestseller": "Siêu giảm giá"
+    },
+    "Services": {
+      "name": "Dịch vụ",
+      "About Vegana": "Giới thiệu về Vegana",
+      "Faq's": "Câu hỏi thường gặp",
+      "Contact Us": "Liên hệ với chúng tôi",
+      "News": "Tin tức",
+      "Sitemap": "Bản đồ"
+    },
+    "My_Account": {
+      "name": "Tài khoản của tôi",
+      "My Account": "Tài khoản của tôi",
+      "My Cart": "Giỏ hàng của tôi",
+      "Order History": "Lịch sử đặt hàng",
+      "My Wishlist": "Yêu thích của tôi",
+      "My Address": "Địa chỉ của tôi"
+    }
+  },
+  "register": {
+    "create": "Tạo tài khoản",
+    "text": "Vui lòng đăng ký chi tiết tài khoản bên dưới",
+    "button register": "TẠO TÀI KHOẢN",
+    "already": "Đã có tài khoản ?",
+    "button login": "Đăng nhập"
+  },
+  "login": {
+    "create": "Đăng nhập",
+    "text": "Vui lòng đăng nhập chi tiết tài khoản",
+    "button register": "ĐĂNG NHẬP",
+    "already": "Chưa có tài khoản ?",
+    "button login": "Tạo tài khoản",
+    "forgot": "Bạn đã quên mật khẩu ?"
+  },
+  "Terms & Conditions": {
+    "title": "Điều khoản và điều kiện",
+    "content": "Sự riêng tư và bảo mật của bạn không quan trọng đối với chúng tôi. Để biết thêm thông tin về cách chúng tôi sử dụng dữ liệu của bạn, hãy đọc",
+    "privacy": "Chính sách bảo mật"
+  },
+  "validate": {
+    "first": "Tên không được để trống !",
+    "last": "Họ không được để trống !",
+    "email": {
+      "required": "Email không được để trống !",
+      "regex": "Email không hợp lệ !",
+      "max": "Email không được vượt quá 50 kí tự !"
+    },
+    "password": {
+      "password": "Mật khẩu",
+      "required": "Mật khẩu không được để trống !",
+      "regex": "Mật khẩu không được nhỏ hơn 8 kí tự !"
+    },
+    "zipCode": "ZIP code phải chứa 6 chữ số !",
+    "address": {
+      "required": "Địa chỉ không được để trống !",
+      "max": "Địa chỉ không được vượt quá 100 kí tự !"
+    },
+    "phone": {
+      "required": "Số điện thoại không được để trống !",
+      "regex": "Số điện thoại không hợp lệ !"
+    },
+    "firstName": {
+      "max": "Họ và tên lót không được vượt quá 50 kí tự !",
+      "required": "Họ và tên lót không được để trống !"
+    },
+    "lastName": {
+      "max": "Tên không được vượt quá 20 kí tự !",
+      "required": "Tên không được để trống !"
+    },
+    "name": {
+      "max": "Tên sản phẩm không được vượt quá 40 kí tự !",
+      "required": "Tên sản phẩm không được để trống !"
+    },
+    "message": {
+      "max": "Thông điệp không được vượt quá 1000 kí tự",
+      "required": "Message can't be blank !"
+    },
+    "category": {
+      "required": "Dòng sản phẩm không được để trống !"
+    },
+    "tag": {
+      "required": "Thẻ tag không được để trống !"
+    },
+    "origin": {
+      "required": "Số lượng sản phẩm không được để trống !"
+    },
+    "size": {
+      "regex": "Kích cỡ tối thiểu là 1kg, tối đa 99kg !",
+      "required": "Kích cỡ không được để trống !"
+    },
+    "price": {
+      "regex": "Đơn giá tối thiểu là 10.000, tối đa là 99.000.000 !",
+      "required": "Đơn giá không được để trống !",
+      "interger": "Giá sản phẩm phải là số nguyên dương !"
+    },
+    "image": {
+      "required": "Hãy chọn 4 ảnh !"
+    },
+    "Short description": {
+      "required": "Mô tả ngắn không được để trống !"
+    },
+    "search": {
+      "required": "Bạn chưa nhập từ khóa !"
+    },
+    "discount": {
+      "max": "Tên mã khuyến mãi không được dài hơn 50 ký tự",
+      "required": "Tên mã giảm giá không được để trống !",
+      "percent": "Phần trăm giảm giá phải là số nguyên dương từ 0 đến 100",
+      "description": {
+        "required": "Mô tả không được để trống !",
+        "code name": "Giảm giá mã chỉ chứa các kí tự 0-9, a-z, A-Z"
+      },
+      "code name": "Mã giảm giá chỉ chứa các kí tự 0-9, A-Z và 3 kí tự đầu tiên là chữ hoa !",
+      "max 20": "Mã giảm giá không được dài quá 20 kí tự !",
+      "amount": {
+        "required": "Số tiền giảm không được để trống"
+      }
+    },
+    "discount name": {
+      "required": "Mã khuyến mãi không được để trống !"
+    },
+    "total": {
+      "interger": "Tổng sản phẩm phải là một số nguyên dương",
+      "required": "Tổng sản phẩm không được để trống"
+    },
+    "amount": {
+      "interger": "Số tiền giảm phải là số nguyên dương!",
+      "regex": "Số tiền giảm tối thiểu là 1.000, tối đa là 99.000.000 !"
+    },
+    "string": "Họ không bao gồm số và kí tự đặc biệt !",
+    "first name": {
+      "string": "Tên không bao gồm số và kí tự đặc biệt !"
+    }
+  },
+  "home": {
+    "banner": {
+      "shop now": "mua sắm ngay",
+      "fresh fruit vegetable": "Trái cây tươi, rau ",
+      "on our product": "Trên sản phẩm của chúng tôi",
+      "Vegetable Eggplant": "Rau cà tím ",
+      "100% Fresh food": "100% thực phẩm tươi"
+    },
+    "countdown": {
+      "title": "Ưu đãi trong ngày!",
+      "thumbnail": "Chúng tôi cung cấp một ưu đãi hấp dẫn mỗi dịp lễ hội",
+      "day": "ngày",
+      "hrs": "giờ",
+      "min": "phút",
+      "sec": "giây",
+      "shop collection": "bộ sưu tập cửa hàng"
+    },
+    "product": {
+      "Special Product": "Sản phẩm đặc biệt",
+      "New Product": "Sản phẩm mới",
+      "Bestseller": "Sản phẩm bán chạy nhất"
+    },
+    "shopify": {
+      "title": "Nhận các ưu đãi mới nhất",
+      "sub": "Và nhận phiếu giảm giá 20% cho lần mua sắm đầu tiên",
+      "placeholder": "Nhập địa chỉ email của bạn",
+      "subscribe": "Đăng ký"
+    },
+    "category": {
+      "title": "Cửa hàng theo thể loại"
+    }
+  },
+  "category": {
+    "Baker's Rack": "Baker's Rack",
+    "Breakfast": "Bữa ăn sáng",
+    "Dairy & Chesse": "Sữa & Phô mai",
+    "Dinner": "Bữa tối",
+    "Featured Product": "Sản phẩm nổi bật",
+    "Fresh Fruits": "Trái cây tươi ",
+    "Fresh Meat": "Thịt tươi sống ",
+    "Fresh Vegetable": "Rau quả tươi",
+    "Green Seafood": "Hải sản xanh",
+    "New Product": "Sản phẩm mới",
+    "Sea & Fish": "Cá biển",
+    "Organic Juice ": "Nước trái cây ",
+    "Organic Dryfruit": "Quả khô hữu cơ"
+  },
+  "tags": {
+    "Almond": "Hạnh nhân",
+    "banana": "chuối",
+    "bitrrot": "cà rốt",
+    "blackberry": "blackberry",
+    "chikoo": "chikoo",
+    "guava": "Ổi",
+    "juice": "Nước ép",
+    "minirrot": "minirrot",
+    "mussel": "trai",
+    "onion": "củ hành",
+    "organic-food": "thực phẩm hữu cơ"
+  },
+  "products": {
+    "sort by": "Sắp xếp theo",
+    "Featured": "Đặc sắc",
+    "Best Selling": "Bán chạy nhất",
+    "Price, low to high": "Giá từ thấp đến cao",
+    "Price, high to low": "Giá từ cao đến thấp",
+    "Date, new to old": "Sản phẩm mới",
+    "Categories": "Thể loại",
+    "Filter by Price": "Lọc theo giá",
+    "Filter by Tags": "Lọc theo thẻ",
+    "Showing": "Hiển thị",
+    "of": "trên",
+    "result": "kết quả",
+    "placeholder": "Chọn một loại",
+    "Anything...": "Bất cứ thứ gì...",
+    "New": "Mới",
+    "Hot": "Nổi bật"
+  },
+  "productDetail": {
+    "Review": "Viết đánh giá",
+    "Review__customer": "Đánh giá của khách hàng",
+    "Review__rating": "Đánh giá",
+    "Review__title": "Tiêu đề",
+    "Review__body": "Nội dung đánh giá không quá 255 kí tự",
+    "Review__submit": "Xác nhận",
+    "Review__validate": {
+      "title": "Vui lòng nhập tiêu đề !",
+      "content": "Nội dung không được quá 255 kí tự"
+    },
+    "Availability": "Trạng thái",
+    "Availability__stock": "Còn hàng",
+    "Availability__new": "Mới",
+    "Hurry up": "Nhanh lên !",
+    "Size": "Kích thước",
+    "Material": "Xuất xứ",
+    "Quantity": "Số lượng",
+    "Share": "Chia sẻ",
+    "description": "Nó có quả nhỏ hơn quả bưởi, vỏ mỏng, khi chín thường có màu da cam, có vị ngọt hoặc hơi chua. Loài cam là một cây lai được trồng từ xưa, có thể lai giống giữa loài bưởi (Citrus maxima) và quýt (Citrus reticulata).",
+    "DELIVERY INFO": "THÔNG TIN GIAO HÀNG",
+    "DELIVERY TEXT": "Từ đó, giao hàng thường trong vòng 2-10 ngày, tùy thuộc vào vị trí của bạn.",
+    "30 DAYS RETURNS": "30 HOÀN TRẢ",
+    "30 DAYS RETURNS TEXT": "Không phù hợp đúng không? \nĐừng lo lắng. \nChúng tôi sẽ sắp xếp việc nhận hàng và hoàn trả đầy đủ trong vòng 7 ngày kể cả phí giao hàng.",
+    "10 YEAR WARRANTY": "BẢO HÀNH 10 NĂM",
+    "10 YEAR WARRANTY TEXT": "Chất lượng đi đầu và sản phẩm của chúng tôi được thiết kế để tồn tại.",
+    "DESCRIPTION": "MÔ TẢ",
+    "REVIEW": "ĐÁNH GIÁ",
+    "bill": "abc"
+  },
+  "cart": {
+    "Yes": "Đồng ý",
+    "No": "Huỷ",
+    "Are you sure delete this product?": "Bạn có muốn xoá sản phẩm này không?",
+    "Warning": "Cảnh báo",
+    "You can only order up to 30 products": "Bạn chỉ có thể mua tối đa 30 sản phẩm.",
+    "My Cart": "Giỏ hàng của tôi",
+    "item": "Sản phẩm",
+    "Unit": "Đơn vị tính: ",
+    "Clear Cart": "Dọn dẹp giỏ hàng",
+    "Continue Shopping": "Tiếp tục mua sắm",
+    "Subtotal": "Tổng phụ",
+    "Total": "Tổng",
+    "Shipping Info": "Thông tin vận chuyển",
+    "Country": "Quốc gia",
+    "Zip/Postal code": "Mã zip / mã bưu điện",
+    "The shopping cart has no products": "Giỏ hàng chưa có sản phẩm nào",
+    "Do you want to delete all products": "Bạn có muốn xoá tất cả sản phẩm không?",
+    "Checkout": "Thanh toán",
+    "You can only order a minimum of 1 product": "Bạn chỉ có thể đặt tối thiểu 1 sản phẩm"
+  },
+  "Profile": {
+    "Info Manage": "Quản lý thông tin",
+    "Order Manage": "Quản lý đơn hàng",
+    "welcome": "Chào mừng",
+    "edit": "Thay đổi mật khẩu",
+    "inner": "Mật khẩu hiện tại",
+    "new": "Mật khẩu mới",
+    "confirm": "Xác nhận mật khẩu",
+    "confirm_pw": "Mật khẩu bạn nhập đã trùng với mật khẩu cũ !",
+    "confirm_pwNew": "Mật khẩu không giống !",
+    "max": "Không được quá 20 kí tự !",
+    "submit": "Submit",
+    "account": {
+      "title": "Chi tiết tài khoản",
+      "name": "Tên",
+      "address": "Địa chỉ",
+      "phone": "Số điện thoại",
+      "edit": "CHỈNH SỬA",
+      "first": "Tên",
+      "last": "Họ",
+      "cancel": "Đóng",
+      "save": "Lưu",
+      "password": "Mật khẩu",
+      "role": "Quyền",
+      "user": "Người dùng",
+      "admin": "Quản trị viên"
+    }
+  },
+  "orderHistory": {
+    "title": "Lịch sử đặt hàng",
+    "content": "Bạn chưa đặt sản phảm nào !"
+  },
+  "payments": {
+    "breadcrumb": {
+      "Cart": "Giỏ hàng",
+      "Information": "Thông tin",
+      "Shipping": "Vận chuyển",
+      "Payment": "Thanh toán"
+    },
+    "information": {
+      "check": "Giữ cho tôi cập nhật tin tức và ưu đãi.",
+      "Country/region": "Quốc gia / khu vực",
+      "First name": "Họ và tên lót",
+      "Last name": "Tên",
+      "Address": "Địa chỉ",
+      "Phone": "Số điện thoại",
+      "ZIP code": "Mã bưu chính",
+      "Continue to shipping": "Tiếp tục giao hàng",
+      "Return to cart": "Quay lại giỏ hàng"
+    },
+    "shipping": {
+      "Contact": "Liên hệ",
+      "Ship to": "Vận chuyển đến",
+      "Change": "Thay đổi",
+      "Shipping method": "Loại hình vận chuyển",
+      "Your cart has been updated and the previous shipping rate isn’t valid. Select a new rate.": "Giỏ hàng của bạn đã được cập nhật và phí vận chuyển trước đó không hợp lệ. Chọn một tỷ lệ mới.",
+      "Standard": "Tiêu chuẩn",
+      "Continue to payment": "Tiếp tục thanh toán",
+      "Return to information": "Quay lại thông tin"
+    },
+    "payment": {
+      "Method": "Kiểu",
+      "Payment": "Thanh toán",
+      "All transactions are secure and encrypted": "Tất cả các giao dịch đều được bảo mật và mã hóa.",
+      "This store can only pay with COD": "Cửa hàng này chỉ có thể thanh toán bằng COD",
+      "Credit card": "Thẻ tín dụng",
+      "Cash on Delivery (COD)": "Thu tiền khi giao hàng (COD)",
+      "Billing address": "Địa chỉ thanh toán",
+      "Select the address that matches your card or payment method.": "Chọn địa chỉ phù hợp với thẻ hoặc phương thức thanh toán của bạn.",
+      "Same as shipping address": "Tương tự như địa chỉ giao hàng",
+      "Use a different billing address": "Sử dụng một địa chỉ thanh toán khác",
+      "Complete order": "Kết thúc đặt hàng",
+      "Return to shipping": "Quay lại giao hàng"
+    }
+  },
+  "infoCart": {
+    "Discount": "Giảm giá",
+    "Discount code": "Mã giảm giá",
+    "Apply": "Áp dụng",
+    "Subtotal": "Tổng phụ",
+    "Shipping cost": "Giá vận chuyển",
+    "Calculated at next step": "Tính toán ở bước tiếp theo",
+    "Total": "Tổng cộng"
+  },
+  "success": {
+    "Order Success": "Đặt hàng thành công",
+    "Thanks": "Cảm ơn bạn đã cho Vegana cơ hội được phục vụ. Vui lòng theo dõi bằng cách nhấp vào",
+    "Order Management": "Quản lý đơn hàng",
+    "Order": "Đơn hàng",
+    "Receiver": "Người nhận",
+    "Delivery address": "Địa chỉ nhận hàng",
+    "Staff will call to confirm before delivery": "Nhân viên sẽ gọi xác nhận trước khi giao",
+    "Estimated delivery time": "Thời gian giao hàng dự kiến",
+    "day": "ngày",
+    "Total amount": "Tổng tiền",
+    "Payment type": "Hình thức thanh toán",
+    "Order Cancellation": "Huỷ đơn hàng",
+    "When you need help, please call": "Khi cần hỗ trợ, vui lòng gọi",
+    "Products purchased": "Sản phẩm đã mua",
+    "amount": "Số lượng",
+    "return to home page": "Về trang chủ"
+  },
+  "admin": {
+    "category_side_bar": "Quản lí danh mục",
+    "tag_side_bar": "Quản li thẻ",
+    "tag_placeholder": "Nhập tên thẻ...",
+    "category_name": "Tên danh mục",
+    "category_name_placeholder": "Nhập tên danh mục...",
+    "no": "STT",
+    "name": "Tên",
+    "actions": "Hành động",
+    "button_add_tag": "Thêm thẻ",
+    "button_add_category": "Thêm danh mục",
+    "tag_search": "Tìm kiếm thẻ",
+    "category_search": "Tìm kiếm danh mục",
+    "images": "Hình ảnh",
+    "description": "Mô tả",
+    "create_category": "Tạo mới danh mục",
+    "edit_category": "Chỉnh sửa danh mục",
+    "edit_tag": "Chỉnh sửa thẻ",
+    "create_tag": "Tạo mới thẻ",
+    "update": "Cập nhật",
+    "add": "Thêm mới",
+    "add_tag_title": "Tạo mới thẻ",
+    "listUser": {
+      "title": "Quản lý người dùng",
+      "user delete": "Bạn muốn xóa người dùng"
+    },
+    "listProduct": {
+      "title": "Quản lý sản phẩm"
+    },
+    "listOrder": {
+      "title": "Quản lý đơn đặt hàng"
+    },
+    "listComment": {
+      "title": "Quản lý bình luận"
+    },
+    "listContact": {
+      "title": "Quản lý liên hệ"
+    },
+    "Dashboard": {
+      "title": "Thống kê"
+    },
+    "discount": {
+      "title": "Quản lý khuyến mãi",
+      "StartDate": "Ngày bắt đầu",
+      "EndDate": "Ngày kết thúc",
+      "Add new": "Thêm mới",
+      "key": "STT",
+      "Discount name": "Tên mã giảm giá",
+      "Discount code": "Mã giảm giá",
+      "Percent": "Phần trăm giảm giá",
+      "Start date": "Ngày bắt đầu",
+      "End date": "Ngày kết thúc",
+      "Quantity": "Số lượng",
+      "Action": "Hành động",
+      "Search": "Tìm kiếm mã giảm giá...",
+      "Add": "Thêm mới mã giảm giá",
+      "CREATE DISCOUNT CODE": "Thêm mới mã giảm giá",
+      "Discount type": "Kiểu giảm giá",
+      "Amount": "Số tiền giảm",
+      "Percent / Amount": "Phần trăm / Số tiền",
+      "discount delete": "Bạn muốn xóa mã giảm giá tên",
+      "status": "Trạng thái"
+    },
+    "table": {
+      "name": "Họ tên",
+      "address": "Địa chỉ",
+      "phone": "Số điện thoại",
+      "action": "Hành động",
+      "role": "Tên quyền",
+      "status": "Trạng thái"
+    },
+    "products": {
+      "More new products": "Thêm mới sản phẩm",
+      "Enter product name": "Nhập tên sản phẩm",
+      "Product's name": "Tên sản phẩm",
+      "Category": "Dòng sản phẩm",
+      "Select category": "Chọn dòng sản phẩm",
+      "Unit price": "Đơn giá",
+      "Price": "Giá",
+      "Enter price": "Nhập giá...",
+      "Enter unit price": "Nhập đơn giá...",
+      "New price": "Đơn giá mới",
+      "Enter new price": "Nhập đơn giá mới",
+      "Size": "Size",
+      "Select...": "Chọn...",
+      "Unit": "Đơn vị",
+      "Origin": "Xuất sứ",
+      "Tag": "Thẻ",
+      "Sale": "Giảm giá",
+      "Select tag": "Chọn thẻ",
+      "Image": "Ảnh",
+      "Short description": "Mô tả ngắn",
+      "Enter short description": "Nhập mô tả ngắn...",
+      "Describe": "Mô tả",
+      "Enter describe": "Nhập mô tả...",
+      "Add new": "Thêm mới",
+      "Add product": "Thêm mới sản phẩm",
+      "Search a product": "Tìm kiếm sản phẩm...",
+      "Edit": "Chỉnh sửa",
+      "Create discount": "Tạo mã khuyến mãi",
+      "Enter discount name": "Nhập tên mã giảm giá",
+      "Discount code": "Mã giảm giá",
+      "Enter discount code": "Nhập mã giảm giá",
+      "Percent": "Phần trăm giảm giá",
+      "Enter percent": "Nhập phần trăm giảm giá",
+      "Quantity": "Số lượng",
+      "Enter quantity": "Nhập số lượng mã giảm giá",
+      "Key": "Key",
+      "Name": "Tên",
+      "Discount": "Giảm giá",
+      "Current price": "Giá hiện tại",
+      "Action": "Hành động",
+      "Total product": "Tổng số lượng sản phẩm",
+      "Enter total product": "Nhập tổng sản phẩm",
+      "Total": "Tổng sản phẩm",
+      "Enter description": "Nhập mô tả",
+      "Description": "Mô tả",
+      "Enter amount": "Nhập số tiền giảm",
+      "product delete": "Bạn muốn xóa sản phẩm"
+    },
+    "sales": {
+      "title": "Quản lý khuyến mãi"
+    },
+    "home": "Trang chủ",
+    "Add new": "Thêm mới",
+    "Back": "Quay lại",
+    "user": {
+      "Search a user": "Tìm kiếm người dùng...",
+      "Email": "Email"
+    },
+    "order": {
+      "Select a status": "Chọn trạng thái",
+      "Search": "Tìm kiếm đơn hàng hoặc người dùng...",
+      "By Sort": "Sắp xếp theo",
+      "Payment Code": "Mã đơn hàng",
+      "User Name": "Tên người dùng",
+      "Total Price": "Tổng tiền",
+      "Date Time": "Thời gian",
+      "Status": "Trạng thái",
+      "Action": "Hành động",
+      "Cancel": "Hủy",
+      "ORDER DETAIL": "CHI TIẾT ĐƠN ĐẶT HÀNG",
+      "Order name": "Tên người đặt",
+      "Recipient name": "Tên người nhận",
+      "Phone Number": "Số điện thoại",
+      "Address": "Địa chỉ",
+      "Payment Status": "Trạng thái thanh toán",
+      "Order Status": "Trạng thái đơn hàng",
+      "Products": "Sản phẩm",
+      "Image": "Hình ảnh",
+      "Name": "Tên",
+      "Quantity": "Số lượng",
+      "Price": "Giá",
+      "GO TO LIST ORDER": "QUAY LẠI",
+      "payment delete": "Bạn muốn xóa đơn đặt hàng",
+      "payment cancel": "Bạn muốn hủy đơn đặt hàng"
+    },
+    "comment": {
+      "Name Product": "Tên sản phẩm",
+      "User Name": "Tên người dùng",
+      "Title": "Tiêu đề",
+      "Content": "Nội dung",
+      "Rating": "Xếp hạng",
+      "Date Time": "Thời gian",
+      "Action": "Hành động",
+      "Search": "Tìm kiếm sản phẩm hoặc người dùng...",
+      "comment delete": "Bạn muốn xóa đánh giá"
+    },
+    "contact": {
+      "Full Name": "Họ tên",
+      "Email": "Email",
+      "Message": "Thông điệp",
+      "Date Time": "Thời gian",
+      "Action": "Hành động"
+    }
+  },
+  "logout": "Đăng xuất",
+  "Related Product": "Sản phẩm liên quan",
+  "Category": "Loại",
+
+  "Footer": {
+    "Payment policy": "Chính sách thanh toán"
+  },
+  "Payment policy": "Chính sách thanh toán",
+  "Full Name": "Họ và tên",
+  "Email": "Email",
+  "DELIVERY INFO": "THÔNG TIN GIAO HÀNG",
+  "30 DAYS RETURNS": "30 NGÀY HOÀN TRẢ",
+  "10 YEAR WARRANTY": "BẢO HÀNH 10 NĂM",
+  "contact": "Liên hệ",
+  "Fresh food": "Thức ăn sạch",
+  "Info Manage": "Quản lý thông tin",
+  "Order Manage": "Quản lý đơn hàng",
+  "profile": {
+    "Info Manage": "Quản lý thông tin",
+    "Order Manage": "Quản lý đơn hàng"
+  },
+  "prodcutDetail": {
+    "DELIVERY TEXT": "Từ đó, giao hàng thường trong vòng 2-10 ngày, tùy thuộc vào vị trí của bạn.",
+    "10 YEAR WARRANTY TEXT": "Chất lượng đi đầu và sản phẩm của chúng tôi được thiết kế để tồn tại.",
+    "replies": "Phản hồi"
+  },
+  "Last Name": "Tên",
+  "Phone Number": "Số điện thoại",
+  "Password": "Mật khẩu",
+  "the length of the Last Name must be greater than 2 and less than 20": "độ dài của Họ phải lớn hơn 2 và nhỏ hơn 20",
+  "the length  of the First Name must be greater than 2 and less than 20": "độ dài của Tên phải lớn hơn 2 và nhỏ hơn 20",
+  "First Name ": "Tên",
+  "Last name": "Tên",
+  "First name": "Họ",
+  "First Name": "Họ",
+  "header text": {
+    "free": "Miễn phí vận chuyển"
+  },
+  "List Discount": "Mã giảm giá",
+  "Cancel Bill": "Hủy đơn",
+  "Notice file cancel": "Bạn có chắc chắn muốn hủy đặt hàng của bạn ?",
+  "PRODUCT": "SẢN PHẨM",
+  "DATE": "NGÀY",
+  "TOTAL": "TỔNG TIỀN",
+  "STATUS": "TRẠNG THÁI",
+  "ACTION": "HÀNH ĐỘNG",
+  "input search text": "Nhập từ khóa ",
+  "Sort by": "Sắp xếp theo",
+  "dicount": {
+    "add warning": "Hãy đăng nhập để thực hiện hành động này !"
+  },
+  "action": {
+    "warning": "Hãy đăng nhập để thực hiện hành động này !"
+  },
+  "discount": {
+    "Out date": "Quá hạn",
+    "In date": "Còn hạn",
+    "comming soon": "Sắp diễn ra"
+  }
+}

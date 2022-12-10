@@ -1,0 +1,132 @@
+@import '../../../scss/utilities/mixin';
+@import '../../../scss/utilities/variables';
+
+.products {
+  &__container {
+    padding: 7rem 0;
+  }
+  .col-sm-100 {
+    @include respond-to('md') {
+      width: 100% !important;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+  }
+
+  .banner {
+    &__container {
+      position: relative;
+      @include bgc-image(27%);
+      min-height: 18rem;
+    }
+
+    &__content {
+      @include absolute(50%, '', '', 5%);
+      @include transform-translate(y, -50%);
+      width: 60%;
+    }
+
+    &__title {
+      font-size: 1.7rem;
+      font-weight: 600;
+    }
+
+    &__desc {
+      padding-top: 2rem;
+      opacity: 0.5;
+    }
+  }
+
+  .topbar {
+    @include flex;
+    padding: 3rem 0;
+
+    &__left {
+      svg {
+        font-size: 3.5rem;
+        cursor: pointer;
+      }
+    }
+
+    &__right {
+      &--text {
+        padding-right: 2rem;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .list {
+    min-height: 55rem;
+    @include respond-to('xs') {
+      .ant-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.pagination {
+  padding-top: 3rem;
+  width: 100%;
+  &__result {
+    padding: 2rem 0;
+    font-weight: 500;
+  }
+  &__result,
+  .ant-pagination {
+    text-align: center;
+  }
+  .ant-pagination-options {
+    display: none;
+  }
+}
+
+@-webkit-keyframes toTop {
+  0% {
+    top: -100%;
+  }
+  50% {
+    top: -50%;
+  }
+  100% {
+    top: -100%;
+  }
+}
+
+@keyframes toTop {
+  0% {
+    top: -100%;
+  }
+  50% {
+    top: -50%;
+  }
+  100% {
+    top: -100%;
+  }
+}
+
+@-webkit-keyframes toBottom {
+  0% {
+    top: -50%;
+  }
+  50% {
+    top: -100%;
+  }
+  100% {
+    top: -50%;
+  }
+}
+
+@keyframes toBottom {
+  0% {
+    top: -50%;
+  }
+  50% {
+    top: -100%;
+  }
+  100% {
+    top: -50%;
+  }
+}

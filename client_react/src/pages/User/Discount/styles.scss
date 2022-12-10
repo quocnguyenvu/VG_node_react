@@ -1,0 +1,74 @@
+@import '../../../scss/styles.scss';
+
+.discount {
+  &__title {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px 20px;
+  }
+
+  &__container {
+    margin: 0 auto;
+    max-width: 1210px;
+    padding: 2rem;
+    margin-bottom: 40px;
+    background-color: #e5ebed;
+
+    & > h3 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+  }
+
+  &__search {
+    @include flex('', center, '', '', '');
+    margin-bottom: 3rem;
+    padding: 2rem 1rem;
+    background-color: #fff;
+
+    &--input {
+      flex: 1;
+      height: 40px;
+      margin: 8px 0;
+      padding-left: 12px;
+      border: 1px solid #c1c6c9;
+      border-radius: 6px;
+    }
+
+    &--icon {
+      position: relative;
+      left: -10px;
+      @include flex();
+      height: 40px;
+      width: 42px;
+      border: 1px solid #c1c6c9;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      background-color: #f5ab1e;
+      cursor: pointer;
+    }
+  }
+
+  &__icon {
+    margin: auto;
+    font-size: 2rem;
+    color: #999;
+  }
+
+  &__content {
+    padding: 2rem 1rem;
+    background-color: #fff;
+
+    & > h3 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-left: 16px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+  }
+}

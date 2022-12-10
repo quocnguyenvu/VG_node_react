@@ -1,0 +1,47 @@
+@import '../../../../scss/styles.scss';
+
+.detail {
+  @include flex(center);
+  flex: 1;
+  margin-top: 20px;
+
+  &__container {
+    font-size: 1.6rem;
+    padding: 20px;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    margin: 8px 0;
+  }
+
+  &__subtitle {
+    min-width: 180px;
+    font-weight: 500;
+    margin-right: 12px;
+  }
+
+  &__table {
+    margin: 8px 0;
+    text-align: center;
+  }
+
+  &__img {
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}

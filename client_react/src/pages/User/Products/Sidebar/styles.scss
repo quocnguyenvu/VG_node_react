@@ -1,0 +1,193 @@
+@import '../../../../scss/utilities/mixin';
+@import '../../../../scss/utilities/variables';
+
+.products {
+  .sidebar {
+    border: 1px solid $border-color;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+
+    //customer antd
+    .ant-checkbox-wrapper {
+      width: 100%;
+      margin: 0;
+      .ant-checkbox + span {
+        &:nth-child(2) {
+          flex: 1;
+        }
+      }
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: $primary-color;
+      border-color: $primary-color;
+    }
+
+    .ant-checkbox-checked::after {
+      border-color: $primary-color;
+    }
+    .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+    .ant-checkbox:hover .ant-checkbox-inner,
+    .ant-checkbox-input:focus + .ant-checkbox-inner {
+      border-color: $primary-color;
+    }
+    .ant-menu-sub.ant-menu-inline {
+      background: $white;
+    }
+    .ant-menu-inline,
+    .ant-menu-vertical,
+    .ant-menu-vertical-left {
+      border: none;
+    }
+    .ant-menu-submenu-arrow {
+      display: none;
+
+      @include respond-to('md') {
+        display: block;
+      }
+    }
+    .ant-menu-submenu-title {
+      padding: 0 !important;
+    }
+    .-title-content {
+      flex: 1;
+    }
+    .ant-menu-item-group-title {
+      display: none;
+    }
+
+    &__title {
+      font-size: 1.5rem;
+      font-weight: 500;
+      border-bottom: 1px solid $border-light;
+
+      @include respond-to('md') {
+        border: none;
+      }
+    }
+
+    &__filter {
+      &--title {
+        @include flex;
+      }
+      &--content {
+        padding: 1rem 0;
+        @include flex(flex-start, center);
+        gap: 1rem;
+      }
+      &--item {
+        padding: 0.3rem 0.5rem;
+        font-size: 1.1rem;
+        background-color: $primary-color;
+        color: $white;
+        cursor: pointer;
+        svg {
+          margin-left: 0.3rem;
+          font-size: 1.4rem;
+        }
+      }
+    }
+    &__categories {
+      &--content {
+        padding: 1rem 0;
+        height: 25rem;
+        overflow-y: scroll;
+        &::-webkit-scrollbar-track {
+          -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+          background-color: $bgc;
+        }
+
+        &::-webkit-scrollbar {
+          width: 6px;
+          background-color: $bgc;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: #c1c1c1;
+          border: 2px solid #c1c1c1;
+        }
+      }
+
+      &--item {
+        margin: 0.4rem 0 !important;
+        &-content {
+          @include flex();
+          width: 100%;
+        }
+      }
+    }
+
+    &__price {
+      &--content {
+        padding: 1rem 0;
+      }
+    }
+
+    &__tags {
+      &--content {
+        @include flex(flex-start, center);
+        gap: 1rem;
+        padding: 1rem 0;
+        overflow-y: auto;
+        @include respond-to('md') {
+          height: 10rem;
+        }
+
+        &::-webkit-scrollbar-track {
+          -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+          background-color: $bgc;
+        }
+
+        &::-webkit-scrollbar {
+          width: 6px;
+          background-color: $bgc;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: #c1c1c1;
+          border: 2px solid #c1c1c1;
+        }
+      }
+
+      &--item {
+        padding: 1.5rem 1.5rem;
+        border: 1px solid $border-color;
+        border-radius: 2.5rem;
+        @include transition(all, 0.2s, ease-in);
+        cursor: pointer;
+        text-transform: capitalize;
+        &:hover {
+          background-color: $black;
+          border-color: $black;
+          color: $white;
+        }
+
+        &-active {
+          background-color: $black;
+          border-color: $black;
+          color: $white;
+        }
+      }
+    }
+
+    &__banner {
+      margin-top: 3rem;
+      overflow: hidden;
+
+      @include respond-to('md') {
+        display: none;
+      }
+
+      &--img {
+        position: relative;
+        display: block;
+        img {
+          @include transition(all, 0.3s, ease);
+          width: 100%;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}

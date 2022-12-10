@@ -1,0 +1,120 @@
+@import '../../scss/utilities/mixin';
+@import '../../scss/utilities/variables';
+
+.product-item {
+  @include transition(all, 0.3s, linear);
+
+  &__img {
+    position: relative;
+    .rotate-img {
+      display: block;
+      transition: transform 0.8s ease-in-out;
+      transform-style: preserve-3d;
+      position: relative;
+      @include bgc-image(115%);
+      img {
+        @include absolute(0, '', '', 0);
+        @include width-height(100%, 100%);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        @include transition(all, 0.7s, ease);
+
+        &:nth-child(2) {
+          opacity: 0;
+        }
+      }
+    }
+  }
+  &__widget {
+    @include absolute('', 50%, 1rem, '');
+    z-index: 10;
+    display: flex;
+    gap: 1rem;
+    @include transform-translate(x, 50%);
+    font-size: 1.8rem;
+
+    &-icon {
+      background-color: $white;
+      position: relative;
+      z-index: 1;
+      @include transition(all, 0.3s, ease-in-out);
+      opacity: 0;
+      visibility: hidden;
+      &:hover {
+        color: $primary-color;
+        border-color: $primary-color;
+      }
+
+      &:first-child {
+        @include transform-translate(x, 124%);
+      }
+      &:last-child {
+        @include transform-translate(x, -124%);
+      }
+    }
+  }
+  &--new,
+  &--sale {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 20% 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 20% 50%);
+    position: absolute;
+    top: 1rem;
+    padding: 2px 5px 2px 15px;
+    color: $white;
+  }
+  &--new {
+    background-color: $primary-color;
+    left: 1rem;
+  }
+  &--sale {
+    background-color: $red;
+    right: 1rem;
+  }
+
+  &__content {
+    padding: 1.5rem;
+  }
+  &__name {
+    font-size: 1.5rem;
+  }
+  &__rate {
+    padding: 0.5rem 0;
+    font-size: 1.6rem;
+  }
+  &__price {
+    margin-top: auto;
+    &--new {
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding-right: 1rem;
+    }
+    &--old {
+      color: #999;
+      text-decoration: line-through;
+      font-size: 1.3rem;
+    }
+  }
+  &:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.2);
+    .product-item__widget-icon {
+      opacity: 1;
+      visibility: visible;
+      &:first-child {
+        @include transform-translate(x, 0);
+      }
+      &:last-child {
+        @include transform-translate(x, 0);
+      }
+    }
+    .rotate-img {
+      img {
+        &:first-child() {
+          opacity: 0;
+        }
+        &:last-child {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
